@@ -1,0 +1,45 @@
+[0m12:52:56.844813 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002BEECB91FC0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002BEEEE00B50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002BEEEE00940>]}
+
+
+============================== 12:52:56.853356 | 9e7f3743-6b80-46f9-9031-382d674c38da ==============================
+[0m12:52:56.853356 [info ] [MainThread]: Running with dbt=1.10.9
+[0m12:52:56.855460 [debug] [MainThread]: running dbt with arguments {'partial_parse': 'True', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True', 'warn_error': 'None', 'cache_selected_only': 'False', 'target_path': 'None', 'version_check': 'True', 'invocation_command': 'dbt deps', 'log_format': 'default', 'use_colors': 'True', 'introspect': 'True', 'debug': 'False', 'printer_width': '80', 'fail_fast': 'False', 'no_print': 'None', 'use_experimental_parser': 'False', 'quiet': 'False', 'empty': 'None', 'log_cache_events': 'False', 'indirect_selection': 'eager', 'log_path': 'logs', 'write_json': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'profiles_dir': 'C:\\Users\\likhi\\.dbt'}
+[0m12:52:56.858713 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path C:\Users\likhi\Downloads\pipeline-guardian-v2-upload\dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m12:52:56.863261 [debug] [MainThread]: Command `dbt deps` failed at 12:52:56.863261 after 0.32 seconds
+[0m12:52:56.865260 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002BEECB91FC0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002BEEEE01450>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002BEEEE01360>]}
+[0m12:52:56.866263 [debug] [MainThread]: Flushing usage events
+[0m12:52:57.305371 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m13:15:52.737367 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018E929E5F90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018E94C4CBB0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018E94C4C9D0>]}
+
+
+============================== 13:15:52.746055 | 6588e808-aa14-4783-9d1e-dedb5823d296 ==============================
+[0m13:15:52.746055 [info ] [MainThread]: Running with dbt=1.10.9
+[0m13:15:52.748073 [debug] [MainThread]: running dbt with arguments {'partial_parse': 'True', 'profiles_dir': 'C:\\Users\\likhi\\Downloads\\pipeline-guardian-v2-upload\\dbt', 'send_anonymous_usage_stats': 'True', 'warn_error': 'None', 'cache_selected_only': 'False', 'target_path': 'None', 'use_colors': 'True', 'invocation_command': 'dbt seed --full-refresh', 'log_format': 'default', 'version_check': 'True', 'introspect': 'True', 'debug': 'False', 'log_cache_events': 'False', 'fail_fast': 'False', 'no_print': 'None', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'printer_width': '80', 'indirect_selection': 'eager', 'log_path': 'logs', 'write_json': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'static_parser': 'True'}
+[0m13:15:52.749263 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path C:\Users\likhi\Downloads\pipeline-guardian-v2-upload\dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m13:15:52.751390 [debug] [MainThread]: Command `dbt seed` failed at 13:15:52.751390 after 0.19 seconds
+[0m13:15:52.752735 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018E929E5F90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018E94C4CCA0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018E94C4CC70>]}
+[0m13:15:52.752735 [debug] [MainThread]: Flushing usage events
+[0m13:15:53.301552 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m13:18:54.258632 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000027601691FC0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000276039FCC10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000276039FCA30>]}
+
+
+============================== 13:18:54.264569 | 64cefec9-8edf-412c-abe8-d14c5d5880b3 ==============================
+[0m13:18:54.264569 [info ] [MainThread]: Running with dbt=1.10.9
+[0m13:18:54.266473 [debug] [MainThread]: running dbt with arguments {'partial_parse': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'send_anonymous_usage_stats': 'True', 'version_check': 'True', 'cache_selected_only': 'False', 'target_path': 'None', 'use_colors': 'True', 'invocation_command': 'dbt seed --full-refresh', 'log_format': 'default', 'warn_error': 'None', 'introspect': 'True', 'debug': 'False', 'printer_width': '80', 'fail_fast': 'False', 'no_print': 'None', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'log_cache_events': 'False', 'indirect_selection': 'eager', 'log_path': 'logs', 'write_json': 'True', 'static_parser': 'True', 'profiles_dir': 'C:\\Users\\likhi\\Downloads\\pipeline-guardian-v2-upload\\dbt'}
+[0m13:18:54.267478 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path C:\Users\likhi\Downloads\pipeline-guardian-v2-upload\dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m13:18:54.269604 [debug] [MainThread]: Command `dbt seed` failed at 13:18:54.269604 after 0.13 seconds
+[0m13:18:54.270607 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000027601691FC0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000276039FCD00>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000276039FCCD0>]}
+[0m13:18:54.271625 [debug] [MainThread]: Flushing usage events
+[0m13:18:54.959431 [debug] [MainThread]: An error was encountered while trying to flush usage events

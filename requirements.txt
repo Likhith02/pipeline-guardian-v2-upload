@@ -1,0 +1,9 @@
+
+duckdb
+pandas
+dbt-core
+dbt-duckdb>=1.6.0
+pyyaml
+streamlit
+python-dotenv
+gitpython

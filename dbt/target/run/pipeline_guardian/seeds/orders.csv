@@ -1,0 +1,13 @@
+
+    
+    
+    
+    create table "demo"."main"."orders" ("order_id" integer,"customer_id" text,"amount" float8,"order_date" date)
+  ;
+    -- dbt seed --
+    
+          COPY "demo"."main"."orders" FROM 'C:\Users\likhi\Downloads\pipeline-guardian-v2-upload\dbt\seeds\orders.csv' (FORMAT CSV, HEADER TRUE, DELIMITER ',')
+        
+
+;
+  

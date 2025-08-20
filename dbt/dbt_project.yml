@@ -1,0 +1,14 @@
+
+name: 'pipeline_guardian'
+version: '2.1.0'
+config-version: 2
+
+profile: 'pipeline_guardian'
+
+model-paths: ['models']
+seed-paths: ['seeds']
+test-paths: ['tests']
+
+models:
+  pipeline_guardian:
+    +materialized: table
